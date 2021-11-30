@@ -1,3 +1,7 @@
+<script context="module">
+    export const hydrate = false;
+</script>
+
 <script lang="ts">
     import Icon from '$lib/components/media/Icon.svelte';
     import Sia from '$lib/images/sia.png';
