@@ -1,5 +1,5 @@
 <script context="module">
-    export const hydrate = false;
+    export const ssr = false;
 </script>
 
 <script lang="ts">

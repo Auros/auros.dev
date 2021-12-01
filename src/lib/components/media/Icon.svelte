@@ -10,4 +10,4 @@
     }
 </script>
 
-<ion-icon on:click={clicked} name={icon} size="large" class={colors} />
+<ion-icon on:click={clicked} name={icon} size="large" class={colors} style="cursor: pointer;" />
