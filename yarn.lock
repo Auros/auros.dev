@@ -56,6 +56,11 @@
   resolved "https://registry.yarnpkg.com/@iarna/toml/-/toml-2.2.5.tgz#b32366c89b43c6f8cefbdefac778b9c828e3ba8c"
   integrity sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==
 
+"@iconify/types@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@iconify/types/-/types-2.0.0.tgz#ab0e9ea681d6c8a1214f30cd741fe3a20cc57f57"
+  integrity sha512-+wluvCrRhXrhyOmRDJ3q8mux9JkKy5SJ/v8ol2tu4FVjyYvtEzkc/3pK15ET6RKg4b4w4BmTk1+gsCUhf21Ykg==
+
 "@jridgewell/resolve-uri@3.1.0":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.0.tgz#2203b118c157721addfe69d47b70465463066d78"
@@ -1146,6 +1151,13 @@ https-proxy-agent@^5.0.0:
   dependencies:
     agent-base "6"
     debug "4"
+
+iconify-icon@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/iconify-icon/-/iconify-icon-1.0.1.tgz#c715762b373540bde84252becf29c76babe63a17"
+  integrity sha512-8qXahj8q0fJ1uMkVJ1DujJw35CWBFxUY9UFCzytfItNjcoj+Dz7yUakuXTzaByIc8seQCnw9CuLVzHdw7yEkBQ==
+  dependencies:
+    "@iconify/types" "^2.0.0"
 
 ignore@^5.2.0:
   version "5.2.0"
