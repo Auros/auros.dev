@@ -1,4 +1,5 @@
 <script lang="ts">
+    import Navigator from "$lib/components/Navigator.svelte";
 
     // To avoid scrapers immediately picking up my email.
     let handle = ''    
@@ -8,6 +9,8 @@
         handle = handle === '' ? 'aurosnex' : ''
     }
 </script>
+
+<Navigator />
 
 <div class="container mx-auto flex h-screen justify-center items-top pt-32">
     <div class="flex flex-col w-1/2 h-96 align-middle justify-top text-neutral-900 dark:text-white space-y-4">

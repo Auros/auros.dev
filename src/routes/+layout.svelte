@@ -9,7 +9,7 @@
 </svelte:head>
 
 <div class="w-screen h-screen bg-neutral-100 dark:bg-stone-900 transition duration-150">
-    <div class="fixed top-0 right-0 m-4">
+    <div class="fixed top-0 right-0 m-4 z-50">
         <ThemeToggle />
     </div>
     <div in:fly="{{ y: -50, duration: 250, delay: 300 }}" out:fly="{{ y: -50, duration: 250 }}">
