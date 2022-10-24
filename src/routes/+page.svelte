@@ -11,7 +11,7 @@
             <Button text="GitHub" bold={true} href={"https://github.com/Auros"} />
             <Button text="Blog" bold={true} href={"https://blog.auros.dev"} />
         </div>
-        <div class="text-black dark:text-neutral-400 selection:bg-cyan-400 dark:selection:bg-purple-600 selection:text-black">
+        <div class="text-black dark:text-neutral-400 selection:bg-cyan-400 dark:selection:bg-purple-600 selection:text-black dark:selection:text-white">
             <p>Software Developer</p>
             <p>Virtual Reality Enthusiast</p>
             <p>.NET and Unity</p>
