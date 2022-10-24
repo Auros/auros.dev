@@ -40,7 +40,9 @@
         <ul class="list-disc ml-5">
             <li>Virtual Reality</li>
             <li>Software Development</li>
-            <li>Gaming</li>
+            <li>Grand Strategy Games (Civilization, etc)</li>
+            <li>Simulation Games (Cities: Skylines, Frostpunk, etc)</li>
+            <li>Rhythm Games (Beat Saber, WACCA, etc)</li>
         </ul>
         <h1 class="text-lg font-bold">Contact Me</h1>
         <!-- svelte-ignore a11y-click-events-have-key-events -->
