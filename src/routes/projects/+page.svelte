@@ -1,25 +1,25 @@
 <script>
     import Project from '$lib/components/Project.svelte';
+    import AIVMedia from '$lib/videos/aiv.mp4';
+    import FluxMedia from '$lib/videos/flux.mp4';
+    import HiveMedia from '$lib/images/hive.png';
+    import HeptaMedia from '$lib/videos/hepta.mp4';
+    import WeaverMedia from '$lib/videos/weaver.mp4';
     import ActionsVideo from '$lib/videos/actions.mp4';
     import ElysiumMedia from '$lib/images/elysium.gif';
-    import VRAtlasMedia from '$lib/images/vratlas.png';
-    import AurosDevMedia from '$lib/images/auros.dev.png';
-    import ContainerViewMedia from '$lib/videos/container.mp4';
-    import BeatSaverSharperMedia from '$lib/images/beatsaversharper.png';
-    import SmartImageMedia from '$lib/images/smartimage.gif';
-    import EmoteCoreMedia from '$lib/images/emote-core.png';
-    import HiveMedia from '$lib/images/hive.png';
-    import BeatmapRefMedia from '$lib/images/beatmapref.png';
-    import ReflectorMedia from '$lib/images/reflector.png';
-    import AIVMedia from '$lib/videos/aiv.mp4';
-    import SiraUtilMedia from '$lib/images/sirautil.png';
-    import FluxMedia from '$lib/videos/flux.mp4';
     import SoriginMedia from '$lib/images/sorigin.jpg';
-    import MarionetteMedia from '$lib/images/marionette.png';
-    import HeptaMedia from '$lib/videos/hepta.mp4';
+    import VRAtlasMedia from '$lib/images/vratlas.png';
     import SiraQualMedia from '$lib/videos/siraqual.mp4';
+    import SiraUtilMedia from '$lib/images/sirautil.png';
+    import AurosDevMedia from '$lib/images/auros.dev.png';
+    import ReflectorMedia from '$lib/images/reflector.png';
+    import EmoteCoreMedia from '$lib/images/emote-core.png';
+    import BeatmapRefMedia from '$lib/images/beatmapref.png';
+    import SmartImageMedia from '$lib/images/smartimage.gif';
+    import ContainerViewMedia from '$lib/videos/container.mp4';
+    import LunacultureMedia from '$lib/images/lunaculture.png';
     import ImageFactoryMedia from '$lib/videos/imagefactory.mp4';
-    import WeaverMedia from '$lib/videos/weaver.mp4';
+    import BeatSaverSharperMedia from '$lib/images/beatsaversharper.png';
 </script>
 
 <div class="container mx-auto flex flex-col justify-left items-top pt-32 space-y-6">
@@ -36,6 +36,13 @@
         media={WeaverMedia}
     />
     <Project
+        title="Lunaculture"
+        description="A game made in 72 hours for the Ludum Dare (52) game jam with my friends and fellow developers VRBobbie and Caeden117."
+        source="https://github.com/Auros/Lunaculture"
+        live="https://ldjam.com/events/ludum-dare/52/lunaculture"
+        media={LunacultureMedia}
+    />
+    <Project
         title="Flux"
         description="A simple application used to load and preview .vrm avatar files."
         source="https://github.com/Auros/Flux"
@@ -45,6 +52,13 @@
     <br />
     <h2 class="text-[30px]">Websites and APIs</h2>
     <hr />
+    <Project
+        title="VR Atlas" 
+        description="A service which allows people to find events and meet people in virtual reality."
+        source="https://github.com/Auros/VRAtlas.API"
+        live="https://vratlas.io"
+        media={VRAtlasMedia}
+    />
     <Project
         title="Emote Core"
         description="A website and API built using SvelteKit which is designed to allow users to upload arbuituary emotes. Built for the companion Beat Saber mod, Emoter."
@@ -153,23 +167,6 @@
         description="Compact a *constrained* map reference from BeatSaver into a ulong to be used as a database key"
         source="https://gist.github.com/Auros/87d919ad5250f62ba5c76edf68622f52"
         media={BeatmapRefMedia}
-    />
-
-    <br />
-    <h2 class="text-[30px]">WIP</h2>
-    <hr />
-
-    <Project
-        title="The VR Atlas" 
-        description="A service which allows people to find events and meet people in virtual reality."
-        source="https://github.com/Auros/VRAtlas.API"
-        media={VRAtlasMedia}
-    />
-    <Project
-        title="Marionette" 
-        description="A service that leverages VRChat OSC to allow people to expose their avatar parameters to the web."
-        source="https://github.com/Auros/Marionette"
-        media={MarionetteMedia}
     />
 
     <br />

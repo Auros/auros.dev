@@ -15,7 +15,7 @@
         <p>Hello, I am Auros. I am a software developer who specializes in anything .NET and Unity.</p>
         <h1 class="text-lg font-bold mt-4">Skillset</h1>
         <ul class="list-disc ml-5">
-            <li>Modern .NET (Core 3.1, 5, 6)</li>
+            <li>Modern .NET (Core 3.1, 5, 6, 7)</li>
             <li>.NET Framework 4.X.X</li>
             <li>ASP.NET Core</li>
             <li>Unity</li>
@@ -28,7 +28,7 @@
             <li>TypeScript</li>
             <li>Node</li>
             <li>HTML, CSS, and JavaScript</li>
-            <li>Web Frameworks (Svelte, Vue)</li>
+            <li>Web Frameworks (Svelte, React, Vue)</li>
             <li>Github Actions</li>
             <li>Docker</li>
         </ul>
